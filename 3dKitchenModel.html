@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fariza Ahmed's Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="light-mode">
+
+    <!-- Navbar -->
+    <nav>
+        <div class="nav-right">
+            <ul>
+                <li><a href="base.html#home">Fariza Ahmed</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <ul>
+                <li><a href="base.html#home">Home</a></li>
+                <li><a href="base.html#projects">Projects</a></li>
+                <li><a href="base.html#about">About</a></li>
+                <li><a href="base.html#contact">Contact</a></li>
+            </ul>
+            <div class="theme-toggle">
+                <span class="moon-icon">🌙</span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="project-details-container">
+        <section class="project-header">
+            <h1 class="project-title">3D Kitchen Model</h1> <!-- Project Title -->
+        </section>
+    
+        <section class="project-description">
+            <p>
+                This model was the culmination of my final project for a computer 
+                graphics course. The goal was to integrate the year's learning on 
+                topics such as transformations, geometry, lighting, and texture 
+                properties into one cohesive design. 
+                
+            <p>Continue reading for a 
+                detailed breakdown.
+            </p>
+                
+            <p> I designed an entryway scene leading into a kitchen, featuring 
+                wooden-textured counters and cabinets with marble countertops, 
+                a sink, and tile accents between the counters. The kitchen elements 
+                were made using cylinders and flat surfaces. To the left of the 
+                viewpoint is a table with two stool chairs, all created from 
+                cylinders, with straw-textured chair tops. The walls have an 
+                artsy texture and a screen door texture with a mock outside view. 
+                The floor is light wood, and the scene includes three light 
+                sources: one simulating indoor lighting, and two representing 
+                day and night light coming from outside. All colors, textures, 
+                and lighting were chosen to complement the scene's theme.
+            </p>
+            <div>
+                <img src="images/3dKitchenModel_images/k1.png" alt="App Preview Image 1">
+                <img src="images/3dKitchenModel_images/k2.png" alt="App Preview Image 2">
+                <img src="images/3dKitchenModel_images/k3.png" alt="App Preview Image 3">
+            </div>
+                
+        </section>
+    
+        <section class="project-features">
+            <h2>Features</h2>
+            <ul>
+                <li>Pressing the arrow keys changes the view position.</li>
+                <li>Pressing “HOME” and “END” changes the distance of the scene from the viewer.</li>
+                <li>Pressing “w” key toggles wire frame mode.</li>
+                <li>Pressing “c” toggles culling back faces.</li>                
+                <li>Phong interpolation.</li>
+                <li>Pressing “1”, “2”, and “3” toggles the three lights off and on.</li>
+                <li>Pressing e, a, d, s toggles the rendering of emissive, ambient, diffuse, and specular light.</li>
+                <li>Press the escape key to exit.</li>
+            </ul>
+        </section>
+    
+        <section class="project-tech-stack">
+            <h2>Tech Stack</h2>
+            <p>
+                This project was built using:
+                <strong>C++, OpenGL</strong> 
+            </p>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Fariza Ahmed. All Rights Reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

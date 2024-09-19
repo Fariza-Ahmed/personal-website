@@ -1,0 +1,156 @@
+html {
+    font-family: 'Spartan', sans-serif;
+}
+
+body {
+    background-color: #faedcd;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.header, h2, .gameInfo {
+    display: flex;
+    margin: 0 auto;
+    height: 100px;
+    width: 450px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+h2 {
+    color: #2d6a4f;
+    height: 25px;
+    padding-bottom: 10px;
+    font-weight: 400;
+    font-size: large;
+}
+
+h2 > p > span {
+    font-weight: 600;
+}
+
+.gameInfo {
+    height: 25px;
+    padding-top: 10px;
+    font-weight: 600;
+    justify-content: space-between;
+}
+
+.stats {
+    display: flex;
+    margin: 0 auto;
+    width: 450px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.score {
+    color: #d8f3dc;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: inline-block;
+    font-size: small;
+    text-align: center;
+    background-color: #95d5b2;
+    height: 50px;
+    width: 60px;
+    border-radius: 10%;
+    margin: 3px;
+    padding-top: 10px;
+}
+
+.score span {
+    font-size: 15px;
+}
+
+.newGame {
+    text-decoration: none;
+    color: white;
+    background-color: #1b4332;
+    padding: 12px 15px 12px 15px;
+    border-radius: 50%;
+    transition: all 0.25s;
+}
+
+.newGame:hover {
+    color: #1b4332;
+    background-color: #d8f3dc;
+    box-shadow: 10px 5px 5px #1b4332;
+}
+
+.howTo {
+    padding: 5px;
+    text-decoration: none;
+    color: #2d6a4f;
+    transition: all 0.25s;
+}
+
+.howTo:hover {
+    color: #1b4332;
+    text-decoration: underline;
+}
+
+.title {
+    color: #1b4332;
+    text-decoration: none;
+}
+
+.grid {
+    background-color: #2d6a4f;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 450px;
+    height: 450px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2%;
+}
+
+.grid div {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    padding: 1px;
+    margin: 4px;
+    border-radius: 8%;
+    background-color: #95d5b2;
+    color: #d8f3dc;
+    font-size: 40px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+
+.instructions, .credit{
+    display: flex;
+    margin: 0 auto;
+    width: 450px;
+    color: #2d6a4f;
+    font-weight: 400;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.instructions > p > span, .credit > p > span {
+    font-weight: 600;
+}
+
+.credit {
+    border-top: 1px solid #2d6a4f;
+    margin-top: 50px;
+    padding-top: 20px;
+}
+
+dialog {
+    background-color: grey;
+    width: 300px;
+    height: 300px;
+    margin: 200px auto;
+    
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="game.css">
+
+</head>
+<body>
+    <div class="header">
+        <h1>
+            <a class="title" href="">2048</a>
+        </h1>
+        <div class="stats">
+            <div class="score">Score <span>0</span></div>
+        </div>
+    </div>
+
+    <div class="gameInfo">
+        <a class="howTo" href="#how">How to Play</a>
+        <div>
+            <a class="newGame" href="">New Game</a>
+        </div>
+    </div>
+    <h2><p>Join the tiles, get to <span>2048 tile!</span></p></h2>
+    
+    <div class="grid"></div>
+
+    <div class="instructions" id="how">
+        <p><span>HOW TO PLAY:</span> Use your <span>arrow keys</span> to move the tiles. When two tiles with the same number touch, they <span>merge into one!</span></p>
+    </div>
+
+    <div class="credit">
+        <p>Inspired by the original <span>2048 Game</span> created by <span>Gabriele Cirulli.</span></p>
+    </div>
+
+    <script src="node_modules/confetti-js/dist/index.min.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>
