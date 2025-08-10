@@ -26,7 +26,7 @@ themeToggle.addEventListener('click', () => {
 });
 
 // Simulate typing effect
-const words = ["a software developer.", "a coffee-enthusiast.", "a problem solver.", "an artist.", "a dancer.", "a cat-lover."];
+const words = ["a data analyst.", "a coffee and tea enthusiast.", "a problem solver.", "an artist.", "detail-oriented.", "a dancer.", "a cat-lover."];
 let currentWordIndex = 0;
 let currentCharIndex = 0;
 let isDeleting = false;
@@ -72,4 +72,3 @@ function typeEffect() {
 document.addEventListener('DOMContentLoaded', () => {
     typeEffect();
 });
-
