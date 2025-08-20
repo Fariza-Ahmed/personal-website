@@ -72,3 +72,18 @@ function typeEffect() {
 document.addEventListener('DOMContentLoaded', () => {
     typeEffect();
 });
+
+// Toggle Navbar in mobile
+function toggleMenu() {
+    const navLinks = document.querySelector('.nav-links');
+    navLinks.classList.toggle('show');
+}
+
+// Close hamburger menu when a link is clicked
+const navItems = document.querySelectorAll('.nav-links ul li a');
+navItems.forEach(item => {
+    item.addEventListener('click', () => {
+        const navLinks = document.querySelector('.nav-links');
+        navLinks.classList.remove('show'); // hides the dropdown
+    });
+});
