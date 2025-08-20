@@ -191,14 +191,12 @@ p {
 }
 
 /* Welcome message styling*/
-/*
 .section {
     display: flex;
     align-items: center; 
     height: 100vh; 
     width: 100%;
 }
-*/
 
 .container {
     width: 100%;
@@ -401,14 +399,6 @@ footer {
 
 /* Styles for Responsive Webpage */
 /* Default styles for desktop */
-.container {
-    display: flex;
-    gap: 2rem;
-}
-img {
-    width: 400px;
-    height: auto;
-}
 nav {
     display: flex;
     justify-content: space-between;
@@ -416,9 +406,9 @@ nav {
     position: relative;
 }
 
-.nav-links {
-    display: flex;
-    gap: 20px;
+nav .nav-links {
+    padding-left: 700px;
+    justify-content: right;
 }
 
 .hamburger {
