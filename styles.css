@@ -406,7 +406,7 @@ nav {
     position: relative;
 }
 
-nav .nav-links {
+.nav-links {
     padding-left: 700px;
     justify-content: right;
 }
@@ -430,7 +430,8 @@ nav .nav-links {
         top: 60px; /* adjust based on navbar height */
         left: 0;
         z-index: 1000;
-        padding: 10px 0; /* optional spacing */
+        padding: 10px 0; 
+        padding-left: 0;
         background-color: #f4f4f4; /* light mode background */
         color: #000;               /* text color */
     }
